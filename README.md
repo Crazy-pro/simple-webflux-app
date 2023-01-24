@@ -6,17 +6,16 @@ Simplest WebFlux Application such as Hello World written in Java and Spring to u
 ### How to start:
 1. Install and run any IDE for working with Java.
 2. Run the application and check end-points work using Postman and link below:
-    - http://localhost:8080/
+   - http://localhost:8080/
 
 
 
 ### Technologies:
 - Programming language: Java 11;
 - Frameworks:
-    - Spring (Boot, Core, Data, WebFlux, Test);
-    - Hibernate.
+  - Spring (Boot, Core, Data, WebFlux, Test);
+  - Hibernate.
 - IDE: IntelliJ IDEA;
-- Database: H2;
 - Tools: Lombok, Postman, Maven, Git, HTTPs, XML, YAML, JSON;
 - Others: GitHub, CircleCI, CodeCov, SonarLint, SonarCloud.
 
