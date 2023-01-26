@@ -1,4 +1,4 @@
-package alex.klimchuk.spring.webflux.app;
+package alex.klimchuk.simple.webflux.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package alex.klimchuk.spring.webflux.app;
+package alex.klimchuk.simple.webflux.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

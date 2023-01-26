@@ -1,6 +1,6 @@
-package alex.klimchuk.spring.webflux.app.repositories;
+package alex.klimchuk.simple.webflux.app.repositories;
 
-import alex.klimchuk.spring.webflux.app.domain.Movie;
+import alex.klimchuk.simple.webflux.app.domain.Movie;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 /**

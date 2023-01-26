@@ -1,4 +1,4 @@
-package alex.klimchuk.spring.webflux.app.domain;
+package alex.klimchuk.simple.webflux.app.domain;
 
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
