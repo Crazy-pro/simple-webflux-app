@@ -22,11 +22,9 @@ public class MovieBootstrap implements CommandLineRunner {
         movieRepository.deleteAll()
                 .thenMany(Flux.just("Death Race", "Undertaker", "Naruto", "Silence game")
                         .map(Movie::new))
-                        .flatMap(movieRepository::save)
-                        .subscribe(null, null, () -> {
-                            movieRepository.findAll()
-                                    .subscribe(System.out::println);
-                        });
+                .flatMap(movieRepository::save)
+                .subscribe(null, null, () -> movieRepository.findAll()
+                        .subscribe(System.out::println));
     }
 
 }
