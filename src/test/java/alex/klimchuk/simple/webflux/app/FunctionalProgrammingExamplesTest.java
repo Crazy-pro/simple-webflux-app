@@ -14,7 +14,6 @@ public class FunctionalProgrammingExamplesTest {
     
     @Test
     public void testFunctionWith4Things() {
-
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() { 
