@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Copyright Alex Klimchuk (c) 2023.
+ * Copyright Alex Klimchuk (c) 2022.
  */
 @SpringBootApplication
 public class WebFluxApplication {

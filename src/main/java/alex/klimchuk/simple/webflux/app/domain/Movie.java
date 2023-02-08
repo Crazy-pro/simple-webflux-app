@@ -4,13 +4,13 @@ import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- * Copyright Alex Klimchuk (c) 2023.
+ * Copyright Alex Klimchuk (c) 2022.
  */
 @Data
-@Builder
 @Document
 @NoArgsConstructor
 @AllArgsConstructor
+@RequiredArgsConstructor
 public class Movie {
 
     private String id;
